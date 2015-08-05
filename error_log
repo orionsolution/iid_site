@@ -1,0 +1,5 @@
+[22-Nov-2014 18:47:09 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/chintan/public_html/iid/application/views/patient/record_view.php on line 32
+[22-Nov-2014 18:47:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/chintan/public_html/iid/application/views/patient/record_view.php on line 32
+[22-Nov-2014 18:47:29 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/chintan/public_html/iid/application/views/patient/record_view.php on line 32
+[22-Nov-2014 18:47:41 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/chintan/public_html/iid/application/views/patient/record_view.php on line 32
+[21-Jan-2015 17:54:53 Asia/Kolkata] PHP Fatal error:  Class 'Patient_model' not found in /home/chintan/public_html/iid/system/core/Loader.php on line 303

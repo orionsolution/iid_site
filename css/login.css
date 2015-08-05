@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/opensans-regular-webfont.eot');
+    src: url('../font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-regular-webfont.woff') format('woff'),
+         url('../font/opensans-regular-webfont.ttf') format('truetype'),
+         url('../font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../font/opensans-semibold-webfont.eot');
+    src: url('../font/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-semibold-webfont.woff') format('woff'),
+         url('../font/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../font/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+div    {margin:0px; padding:0px;}
+ul     {margin:0px; padding:0px;}
+img		{border:0px;}
+
+a{text-decoration:none; color:#000 ; font-weight:bold;}
+a:hover{color:#fff;}
+::-webkit-input-placeholder { color:#60b9ff; }
+:-moz-placeholder { /* Firefox 18- */ color:#60b9ff; }
+::-moz-placeholder {  /* Firefox 19+ */ color:#60b9ff; }
+:-ms-input-placeholder {  color:#60b9ff;  }
+
+.fltleft{float:left;}
+.fltright{float:right;}
+.clearfloat{clear:both; height:0px; line-height:0px; font-size:1px;}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	color:#000;
+	background:#3db5ff;
+}
+#login_container{
+	margin:0px auto;
+	width:340px;
+	height:340px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-170px;
+	margin-top:-170px;
+	/*border:solid 1px #fff;*/
+}
+/* -----------loginbox----------- */
+#top{
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+}
+#loginbox{
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+	width:260px;
+	padding:40px 40px 15px 40px;
+	background:#fff;
+	font-size:14px;
+	line-height:18px;
+	text-align:center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+	box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+}
+#loginbox h2{ 
+	font-size:23px;
+	font-weight:normal;
+	color:#1281c5;
+	margin:0;
+	padding:0;
+}
+#loginbox input[type=text], #loginbox input[type=password]{
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+	height:20px;
+	line-height:20px;
+	padding:7px 10px;
+	margin:5px 0 0 0;
+	color:#60b9ff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	border:solid 1px #ccc;
+	width:240px;
+}
+input[type=text]:hover, input[type=text]:focus, input[type=password]:hover, input[type=password]:focus{
+	-webkit-box-shadow:inset 0px 0px 10px #ccc;
+	-moz-box-shadow:inset 0px 0px 10px #ccc;
+	box-shadow:inset 0px 0px 10px #ccc;
+}
+#loginbox input[type=submit]{
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+	padding:10px 0;
+	margin:3px 0 10px 0;
+	font-size:20px;
+	color:#fff;
+	background:#2791cb;
+	cursor:pointer;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	border:none;
+	width:100%;
+	text-transform:uppercase;
+}
+#loginbox input[type=submit]:hover{
+	background:#666;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+#loginbox a{
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height:25px;
+	color:#2791cb;
+	text-decoration:underline;
+}
+#loginbox a:hover{
+	text-decoration:none;
+}
+.error{
+	color:#f00;
+	font-size:11px;
+}

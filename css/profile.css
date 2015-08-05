@@ -1,0 +1,70 @@
+/* CSS Document */
+
+#maincontent .profile .ptop{
+	padding:8px 10px;
+	color:#fff;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	-khtml-border-radius: 5px 5px 0 0;
+	text-transform:uppercase;
+	background:#339ee5;
+}
+#maincontent .profile .ptop table td{
+	background:url(../images/profile_topdiv.gif) repeat-y 100% 0%;
+	padding:0 8px;
+	height:23px;
+	line-height:23px;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	text-transform:none;
+}
+#maincontent .profile .ptop table td.prmrd{ font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif; font-weight:normal;}
+#maincontent .profile .ptop table td .mrd{ font-family:'open_sansbold', Arial, Helvetica, sans-serif; font-weight:normal;}
+#maincontent .profile .ptop table td.last{background:none;}
+#maincontent .profile .ptop table td ul li{ list-style:none; float:left; padding:0 0 0 3px; margin:0;}
+#maincontent .profile select{
+	background:#f1f1f1;
+	border:solid 1px #ececec;
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#6e6c6c;
+	padding:0;
+	margin:0;
+	text-transform:capitalize;
+}
+#maincontent .profile input[type=text]{
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#6e6c6c;
+	background:#f1f1f1;
+	border:solid 1px #ececec;
+	height:20px;
+	line-height:20px;
+	padding:0 5px;
+	text-transform:capitalize;
+}
+#maincontent .profile input[type=submit], #maincontent .profile input[type=reset]{color:#949494; background:#e6e6e6;}
+#maincontent .profile input[type=submit]:hover, #maincontent .profile input[type=reset]:hover{
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:16px;
+	color:#0684d2;
+	background:#e6e6e6;
+}
+#maincontent .profile .pbottom{
+	padding:8px 10px;
+	color:#a0a0a0;
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+	-khtml-border-radius:0 0 5px 5px;
+	text-transform:capitalize;
+	font-family:'open_sansregular', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:15px;
+}
+#maincontent .profile .pbottom table td{padding:5px 20px 5px 0; border-right:solid 1px #ececec; text-align:right;}
+#maincontent .profile .pbottom table td.last{border:none;}
+span.error{color:red; font-size:.8em; display:block; text-transform:none; text-align:left;}

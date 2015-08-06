@@ -429,7 +429,8 @@
                                       <input name="add_treat_info[]" type="checkbox" value="Compliance difficulties" /> Compliance difficulties <br />
                                       <input name="add_treat_info[]" type="checkbox" value="Drug Allergy" /> Drug Allergy<br />
                                       <input name="add_treat_info[]" type="checkbox" value="Family History" /> Family History<br />
-                                      <input name="add_treat_info[]" type="checkbox" value="Social Psycho Aspects" /> Social Psycho Aspects
+                                      <input name="add_treat_info[]" type="checkbox" value="Social Psycho Aspects" /> Social Psycho Aspects<br />
+                                      <input name="add_treat_info[]" type="checkbox" value="Completed Course" /> Completed Course
                                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
                                           <td width="70%" align="right" style="padding-top:12px;">

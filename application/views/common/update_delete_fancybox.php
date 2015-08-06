@@ -73,8 +73,9 @@
               <input name="add_treat_info" type="checkbox" value="Patient decision / Request" /> Patient decision / Request<br />
               <input name="add_treat_info" type="checkbox" value="Compliance difficulties" /> Compliance difficulties <br />
               <input name="add_treat_info" type="checkbox" value="Drug Allergy" /> Drug Allergy<br />
-              <input name="add_treat_info" type="checkbox" value="Family History" /> Family History<br />
-              <input name="add_treat_info" type="checkbox" value="Social Psycho Aspects" /> Social Psycho Aspects
+              <input name="add_treat_info" type="checkbox" value="Family History" /> Family History<br />              
+              <input name="add_treat_info" type="checkbox" value="Social Psycho Aspects" /> Social Psycho Aspects<br />
+              <input name="add_treat_info" type="checkbox" value="Completed Course" /> Completed Course
             </td>
           </tr>
         </table>

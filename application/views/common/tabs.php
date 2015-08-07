@@ -464,6 +464,8 @@ $(document).ready(function(){
 
 /* To select first radio button of each tab when page loads */
 
+//console.log("input value: " + $('.sel_subcat.readonly.treat').val());
+
 $('#hist_form').find('input[type=radio]').first().attr('checked', 'checked');
 $('#exam_form').find('input[type=radio]').first().attr('checked', 'checked');
 $('#diag_form').find('input[type=radio]').first().attr('checked', 'checked');
@@ -495,10 +497,15 @@ $('li.ui-state-default').click(function() {
 
   var div = $('div' + anchor_href);
 
+  //console.log("div " , div.html());
+
+
 
 
   var curr_radio = $(div).find('input[type=radio]:checked');
-  var curr_option = $(div).find('select option:selected');
+  var curr_option = $(div).find('select option:selected').not('.ui-datepicker-month');
+  console.log($(div).find('select option:selected')); 
+  console.log("option element", curr_option.parent().attr('class'));
   console.log("curr option elem: " + $(curr_option).val());
 
   var curr_text = $(curr_radio).siblings('label').text();
@@ -512,16 +519,23 @@ $('li.ui-state-default').click(function() {
 
   if (curr_option) {
 	var curr_option_value = curr_option.text();
-	curr_option_value = curr_option_value.replace('Jan2015Jan2015','');
+  if(curr_option.parent().hasClass('ui-datepicker-month')){
+    curr_option_value = '';
+  }
+	//curr_option_value = curr_option_value.replace('Jan2015Jan2015','');
+
 	 $('span.select_value input[name=param]').val(curr_option_value);
+   //return;
 	 $('span.hidden_select input[name=param_id]').val(curr_option.val());
 	 console.log("curr option: " + curr_option.text());
-	console.log('inside if');
+	 console.log('inside if');
   } else {
 	$('span.select_value input[name=param]').val("");
 	$('span.hidden_select input[name=param_id]').val("");
 	console.log('inside else');
   }
+
+
 
 });
 

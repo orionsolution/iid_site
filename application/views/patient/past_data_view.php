@@ -224,10 +224,10 @@ $(function() {
 
         var value = $(this).find('input.get_value').val();
         var past_date = $('#past_date').val();
-		past_date = past_date.replace(',','');
-		var visit_dt = $('input[name=visit_dt]');		
-		console.log("Input value is: " + $('input[name=visit_dt').val());
-		$('input[name=visit_dt]').val(past_date);		
+    		past_date = past_date.replace(',','');
+    		var visit_dt = $('input[name=visit_dt]');		
+    		console.log("Input value is: " + $('input[name=visit_dt').val());
+    		$('input[name=visit_dt]').val(past_date);		
         
 
         $('.saved_' + value).html(img_html);
